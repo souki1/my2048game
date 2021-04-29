@@ -1,62 +1,113 @@
-html{
-    overflow:hidden;
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
 }
-.const{
-    
-    text-align: center;
-    font-weight: 7000;
-    color: red ;
-}
-.text{
-    overflow: hidden;
-    text-align: center;
-    font-family: Arial;
-    font-size: 15px;
-}
+
 
 body{
     padding:0;
-    margin: 0;
-    
+    margin: 0;    
     background: linear-gradient(to right,#00aaff,#00ff6c)
 }
+.heading{
+    
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: red ;
+}
+
+
 .center{
-    margin: 0;
-    position:absolute;
-    left: 43%;
-    top:13%;
+justify-content: center;
+display: flex;
+margin: 20px;
 
 }
-.lines{
-    position: absolute;
-    overflow: hidden;
-    margin: 0;
-    top:74%;
-    font-size: 1.5rem;
-    left: 35%;
+#reset,
+#startgame{
+    font-size: 15px;
+    font-weight: 800;
+    background-color: black;
+    color: red;
+    padding: 10px;
+    margin: 2px;
 }
+#startgame:hover,
+#reset:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 19px;
+    transition: .5s;
+}
+.one{
+   display: flex;
+justify-content: center;
+font-size: 25px;
+padding-right: 08%;
+font-weight: 700;
+box-shadow: 2px red;
+padding-left:8.3% ;
+
+}
+.one h5{
+    background-color: black;
+    color: red;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+padding: 5px;
+    margin:-8px;
+   
+}
+.one span{
+    font-size: 20px;
+    background-color: black;
+    color: red;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+padding: 5px;
+margin:-8px;
+}
+
+
 .row{
     position: absolute;
     top:22%;
     left: 38%;
     width: 400px;
     height:400px;
+    
     background:black;
 }
 .cell{
-width: 91px;
-height: 91px;
-border-radius: 10%;
-background: transparent;
-border:5px solid blueviolet;
-display: inline-block;
-margin-right:-5px ;
-margin-bottom: -5px;
-overflow: hidden;
-font-size:30px;
-line-height: 2 ;font-size: 40px; overflow: hidden;
-text-align: center;
-font-family: Arial,sans-serif;
-color:whitesmoke;
+    width: 91px;
+    height: 91px;
+    border-radius: 10%;
+    background: transparent;
+    border: 5.5px solid blueviolet;
+    display: inline-block;
+    margin-right:-7px ;
+    margin-bottom: -6px;
+    overflow: hidden;
+    font-size:35px;
+
+    line-height: 2 ;
+    font-size: 40px;
+     overflow: hidden;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    color:whitesmoke;
 }
 
+.lines{
+    display: grid;
+    position: absolute;
+    top:74%;
+    font-size: 1.rem;
+    left: 35%;
+}
+.lines h1{
+    display: flex;
+    justify-content: center;
+   
+}

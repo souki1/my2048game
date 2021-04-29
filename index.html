@@ -6,24 +6,25 @@
     <title>2048game</title>
     <link rel="stylesheet"  href="style.css" >
     <link rel="icon" type="image/png" href="OIP.jpg">
+
     
 </head>
 <body>
-<script src="index.js"></script>
-    <div class="const">
+
+    <div class="heading">
         <h1> 2048game </h1>
     </div>
-    <div><pre class="text" style="font-weight: 700;color:black;">The 1st project (2048) GAME BY KARNA AND SOUKI TEAM  </pre></div>
+
     <div class="center">
         
-     <button  id="reset" style="font-size: 16px;color:red;border: violet;">RESET </button>
-     <button id="startgame" style="font-size: 16px; color: black;">START</button>
-     
-     <div id = "scoreContianer"></div>
-        <span id="scoreContianer">0</span>
-     </div>
-     
+     <button  id="reset" > RESET </button>
+     <button id="startgame" > START</button>
+          
     </div>
+    <div id = "scoreContianer" class="one">
+       <h5>score :</h5> <span id="score"></span>
+    </div>
+
   <div id="grid" class="grid">
       <div class="row">
           <div  id="row1"class="cell"></div>
@@ -44,23 +45,27 @@
           <div id="row16"class="cell"></div>
           
       </div>
-      
-  </div>
-   <div class="instructions">
-       
-   </div>
-<div class="lines ">
+
+    </div>
+  
+    <div class="lines ">
     
-<pre>
-                    RULES
-1. Rules are simple and easy to access the game 😁😁😁
-2. User Arrow  keys to access the play the game ❤❤❤❤
-3. Its just simple game where combine the even similar digits👌👌👌👌👌👌 
-4. the Goal is simple you just need to reach 2048 is the final number 😍😍😍💕💕
-5. if the boxes are filled without any chance then its game over 👍👍👍  
-6.thanks for playing  
-</pre>
-</div>
+     <h1>
+            RULES
+        </h1>
+        <p>
+            1. Rules are simple and easy to access the game 😁😁😁<br>
+            2. User Arrow  keys to access the play the game ❤❤❤❤<br>
+            3. Its just simple game where combine the even similar digits👌👌👌👌👌👌<br> 
+            4. the Goal is simple you just need to reach 2048 is the final number 😍😍😍💕💕<br>
+            5. if the boxes are filled without any chance then its game over 👍👍👍  <br>
+            6.thanks for playing  
+        
+        </p>
+    
+    </div>
+
+    <script src="index.js"></script>
 
 </body>
 </html>
